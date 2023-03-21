@@ -1,20 +1,20 @@
-## Table Styling in Markdown
+---
+title: "Untitled"
+output: html_document
+---
 
-<table style="border:ridge 4px red">
-  <tr style="background-color:blue;color:white;" id="ROW1">
-    <td style="border:ridge 4px red" >Cell 1.1</td>
-    <td style="border:ridge 4px red">Cell 1.2</td>
-    <td style="border:ridge 4px red">Cell 1.3</td>
-  </tr>
-  <tr style="background-color:yellow;color:green;" id="ROW2">
-    <td style="border:ridge 4px red">Cell 2.1</td>
-    <td style="border:ridge 4px red">Cell 2.2</td>
-    <td style="border:ridge 4px red">Cell 2.3</td>
-  </tr>
-</table>
 
-|Tag|Requied/Optional  |Notes  |Examples  |
-|--|--|--|--|
-| <td style="background-color:green;color:white;">1</td> | <td style="background-color:green;color:white;">2</td> | <td style="background-color:green;color:white;">3</td> | <td style="background-color:green;color:white;">4</td> |
-|  |  |  |  |
-|  |  |  |  |
+```{r, results='asis', warning=FALSE, message=FALSE}
+library(ReporteRs)
+data(iris)
+irisFT = FlexTable( iris )
+
+vars <- c("Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width")
+for (i in vars) {
+  irisFT[iris[, i] < 3, i] = cellProperties( background.color = "orange" )
+  irisFT[iris[, i] >= 3 & iris[, i] < 3.5, i] = cellProperties( background.color = "yellow" )
+  irisFT[iris[, i] > 4, i] = cellProperties( background.color = "#81DAF5" )
+}
+
+cat(as.html(irisFT))
+```
