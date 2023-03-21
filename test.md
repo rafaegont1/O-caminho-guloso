@@ -15,6 +15,9 @@
 |  <p> $\colorbox{olive}{707}$ </p>      |  409      |  87       |  351      |
 |  485      |  <p> $\colorbox{olive}{564}$ </p>      |  <p> $\colorbox{olive}{114}$ </p>      |  <p> $\colorbox{olive}{584}$ </p>      |
 
+<p>I will display &larr;</p>
+<p>I will display &#8592;</p>
+<p>I will display &#x2190;</p> 
 
 | <!-- -->  | <!-- -->  | <!-- -->  | <!-- -->  |
 | ----------| ----------| ----------| ----------|
