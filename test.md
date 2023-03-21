@@ -3,4 +3,4 @@
 
 | Rafael | Getulio |
 |  ------|  -------|
-|  $\colorbox{orange}{text}$   |  mskaf  |
+|  $\colorbox{olive}{text}$   |  mskaf  |
