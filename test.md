@@ -1,2 +1,6 @@
-$${\color{red}Welcome}$$
-$\colorbox{red}{text}$
+<p> $${\color{red}Welcome}$$ </p>
+<p> $\colorbox{red}{text}$ </p>
+
+| Rafael | Getulio |
+|  ------|  -------|
+|  Gui   |  mskaf  |
