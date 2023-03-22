@@ -48,6 +48,6 @@
         <td align="center"></td>
         <td align="center">&#x21D2</td>
         <td align="center">&#x21D2</td>
-        <td align="center"><b> FIM </b></td>
+        <td align="center">Fim</td>
     </tr>
 </table>
