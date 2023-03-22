@@ -33,22 +33,22 @@
         <td align="center">268</td>
     </tr>
     <tr>
-        <td align="center">903</td>
-        <td align="center">762</td>
+        <td align="center"><b>903</b></td>
+        <td align="center"><b>762</b></td>
         <td align="center">253</td>
         <td align="center">590</td>
     </tr>
     <tr>
-        <td align="center">707</td>
+        <td align="center"><b>707</b></td>
         <td align="center">409</td>
         <td align="center">87</td>
         <td align="center">351</td>
     </tr>
     <tr>
-        <td align="center">485</td>
-        <td align="center">564</td>
-        <td align="center">114</td>
-        <td align="center">584</td>
+        <td align="center">485</b></td>
+        <td align="center"><b>564</b></td>
+        <td align="center"><b>114</b></td>
+        <td align="center"><b>584</b></td>
     </tr>
 </table>
 
