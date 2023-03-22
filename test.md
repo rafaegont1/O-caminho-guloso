@@ -27,7 +27,7 @@
 
 <table align="center">
     <tr>
-        <td align="center">478</td>
+        <td align="center"><b>478</b></td>
         <td align="center">664</td>
         <td align="center">153</td>
         <td align="center">268</td>
