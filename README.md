@@ -53,11 +53,23 @@
 </table>
 
 <p align="justify">
-    Em seguida, o programa entra em um loop (<b>linhas 17-27</b>) que continua até que a leitura do arquivo chegue ao fim. Os valores das matrizes foram lidos e atribuídos aos elementos da matriz (<b>linha 20</b>). Após ler a primeira matriz e, caso o arquivo não tenha chegado ao fim, os valores da nova matriz são sobrescritos na matriz <i>mat</i>.
+    Em seguida, o programa entra em um loop (<b>linhas 17-28</b>) que continua até que a leitura do arquivo chegue ao fim. Os valores das matrizes foram lidos e atribuídos aos elementos da matriz (<b>linha 20</b>). Após ler a primeira matriz e, caso o arquivo não tenha chegado ao fim, os valores da nova matriz são sobrescritos na matriz <i>mat</i>.
 </p>
 
 <p align="justify">
-    No arquivo <i>funcoes.c</i>, a função <i>greedyAlg</i> faz a verificação da matriz a partir de um <i>loop</i> que continua até que o programa chegue até a última linha (<b>linhas 11-39</b>). O algoritmo começa a verificar a matriz a partir do elemento disposto na primeira coluna da primeira linha. Com isso, ele procura verificar qual é o maior valor dentre os elementos das colunas próxima e anterior, para a linha de baixo e para as diagonais para baixo. O programa avalia qual é o maior valor dentre cinco direções: a próxima coluna, a coluna anterior, a linha de baixo e as duas diagonais para baixo.
+    No arquivo <i>matrix.c</i>, a função <i>greedyAlg</i> faz a verificação da matriz a partir de um <i>loop</i> que continua até que o programa chegue até a última linha (<b>linhas 11-39</b>). O algoritmo começa a verificar a matriz a partir do elemento disposto na primeira coluna da primeira linha. Com isso, ele procura verificar qual é o maior valor dentre os elementos das colunas próxima e anterior, para a linha de baixo e para as diagonais para baixo. O programa avalia qual é o maior valor dentre cinco direções na seguinte ordem:
+</p>
+
+<ol>
+    <li>A linha de baixo</li>
+    <li>A coluna anterior</li>
+    <li>A diagonal baixo-esquerda</li>
+    <li>A próxima coluna</li>
+    <li>A diagonal baixo-direita</li>
+</ol>
+
+<p align="justify">
+    O algoritmo leva em conta o maior valor que aparecer primeiro. Por exemplo, em caso de empate entre os valores da linha de baixo e da coluna anterior, o algoritmo daria prioridade à próxima linha, pois ele possui maior prioridade. Segue abaixo uma representação mais visual dos possíveis caminhos em que o algoritmo pode andar.
 </p>
 
 <table align="center">
@@ -78,11 +90,11 @@
 </p>
 
 <p align="justify">
-    Em seguida, é chamada a função <i>joystick</i> (<b>linhas 50-70</b>), onde um <i>switch case</i> define, a partir de um argumento <i>char</i> passado para a função, para qual direção o algoritmo deve se mover.
+    Em seguida, é chamada a função <i>joystick</i> (<b>linhas 52-72</b>), onde um <i>switch case</i> define, a partir de um argumento <i>char</i> passado para a função, para qual direção o algoritmo deve se mover.
 </p>
 
 <p align="justify">
-    Foram acrescentadas duas condições (<b>linhas 16-26</b>), a fim de garantir que o programa não exceda os limites da matriz, causando assim um erro na execução do programa. As condições são:
+    Foram acrescentadas duas condições (<b>linhas 15 e 25</b>), a fim de garantir que o programa não exceda os limites da matriz, causando assim um erro na execução do programa. As condições são:
 </p>
 
 <ul>
@@ -152,6 +164,10 @@
     </tr>
 </table>
 
+<p align="justify">
+    O exemplo aqui explicado foi compilado com o com o GNU Compiler Collection (gcc) versão 4:11.2.0-1ubuntu1, no sistema operacional Ubuntu 22.04.2 LTS (Jammy Jellyfish). O computador possuia a placa-mãe ASUS AM1M-A/BR, 8 GB de memória RAM DDR3 e um processador AMD Athlon 5150 (arquitetura x86_64).
+</p>
+
 <h2>Compilação e Execução</h2>
 
 <p align="justify">
@@ -171,4 +187,3 @@
 <a style="color:black" href="mailto:rafaelg000@gmail.com?subject=[GitHub]%20Source%20Dynamic%20Lists">
     ✉️ <i>rafaelg000@gmail.com</i>
 </a>
-
