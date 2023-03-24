@@ -173,7 +173,7 @@
 |  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
 
 
-<h2>Contatos</h2>
+<h2>Contato</h2>
 
 <a style="color:black" href="mailto:rafaelg000@gmail.com?subject=[GitHub]%20Source%20Dynamic%20Lists">
     ✉️ <i>rafaelg000@gmail.com</i>
