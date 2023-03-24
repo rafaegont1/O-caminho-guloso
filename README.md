@@ -25,7 +25,7 @@ O algoritmo deste programa é considerado guloso porque ele sempre busca os elem
 </p>
 
 <p align="justify">
-Para mostrar um exemplo de execução do programa, foi utilizado o arquivo <i>input.data</i>. A matriz testada possuia apenas números positivos. A entrada utilizada foi a seguinte:
+Para mostrar um exemplo de execução do programa, foi utilizado o arquivo <i>input.data</i>. A matriz testada, de tamanho quadrado quarto por quatro (4x4), possuia apenas números positivos. É importante destacar que a matriz não deverá apresentar nenhum valor zero, pois este valor será utilizado para orientar o algoritmo quando este for percorrer a matriz. A entrada utilizada foi a seguinte:
 </p>
 
 <table align="center">
