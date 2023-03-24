@@ -57,15 +57,8 @@
 </p>
 
 <p align="justify">
-    No arquivo <i>funcoes.c</i>, a função <i>greedyAlg</i> faz a verificação da matriz a partir de um <i>loop</i> que continua até que o programa chegue até a última linha (<b>linhas 11-39</b>). O algoritmo começa a verificar a matriz a partir do elemento disposto na primeira coluna da primeira linha. Com isso, ele procura verificar qual é o maior valor dentre os elementos das colunas próxima e anterior, para a linha de baixo e para as diagonais para baixo. O programa avalia qual é o maior valor dentre cinco direções:
+    No arquivo <i>funcoes.c</i>, a função <i>greedyAlg</i> faz a verificação da matriz a partir de um <i>loop</i> que continua até que o programa chegue até a última linha (<b>linhas 11-39</b>). O algoritmo começa a verificar a matriz a partir do elemento disposto na primeira coluna da primeira linha. Com isso, ele procura verificar qual é o maior valor dentre os elementos das colunas próxima e anterior, para a linha de baixo e para as diagonais para baixo. O programa avalia qual é o maior valor dentre cinco direções: a próxima coluna, a coluna anterior, a linha de baixo e as duas diagonais para baixo.
 </p>
-
-<ul>
-    <li>A próxima coluna</li>
-    <li>A coluna anterior</li>
-    <li>A linha de baixo</li>
-    <li>As duas diagonais para baixo</li>
-</ul>
 
 <table align="center">
     <tr>
