@@ -12,7 +12,7 @@
     No decorrer do curso, é muito provável que todos precisaram, em algum momento, trabalhar com o conceito de caminhamento em matrizes de forma gulosa, ou seja, optando por um dado caminho e não mais olhando para trás ou para decisões já tomadas. Neste trabalho vamos caminhar por um conjunto de matrizes fornecidas como entrada, objetivando encontrar o maior valor final segundo um conjunto de regras preestabelecidas, objetivando com isso: <b>(1)</b> revisar os conceitos de programação básica com matrizes, <b>(2)</b> iniciar um cenário de questionamentos para identificar se realmente a implementação realizada é a forma otimizada e; <b>(3)</b> iniciar uma busca para uma boa estruturação de código.
 </p>
 
-<h2>L</h2>
+<h2>Lógica</h2>
 
 <p align="justify">
     Os algoritmos gulosos, de uma maneira geral, buscam a melhor opção disponível no momento, a fim de conseguir atingir uma solução ótima global. Sem se importar com as consequências das decisões tomadas, os algoritmos gulosos nunca reconsideram decisões já feitas, os tornando bastante eficientes, devido a sua simplicidade.
