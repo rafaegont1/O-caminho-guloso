@@ -1,4 +1,4 @@
-	#include "funcoes.h"
+#include "funcoes.h"
 
 	typedef struct movement {
 		char dir;
@@ -10,8 +10,7 @@ unsigned short greedyAlg(unsigned short mat_sz, unsigned short *mat) {
 
 	while(i + 1 != mat_sz) {
     // (c) saltar para a linha de baixo
-		offset = mat_sz * (i + 1) + j;
-		struct movement mov = (Mov){.dir = 'd', .max = mat[offset]};
+		struct movement mov = (Mov){.dir = 'd', .max = mat[mat_sz * (i + 1) + j]};
 
     if(j != 0) {
       // (b) retroceder para coluna anterior
@@ -30,11 +29,11 @@ unsigned short greedyAlg(unsigned short mat_sz, unsigned short *mat) {
 
       // (d) ir em diagonal para baixo (\)
 			offset = mat_sz * (i + 1) + j + 1;
-      if(mat[offset]) mov = (Mov){.dir = '\\', .max = mat[offset]};
+      if(mat[offset] > mov.max) mov = (Mov){.dir = '\\', .max = mat[offset]};
     }
 
-		mat[0] = 0;
-		move(&i, &j, mov.dir);
+		mat[mat_sz * i + j] = 0;
+		joystick(&i, &j, mov.dir);
 		offset = mat_sz * i + j;
 		res += mat[offset];
 	}
@@ -42,12 +41,13 @@ unsigned short greedyAlg(unsigned short mat_sz, unsigned short *mat) {
 	while(j + 1 != mat_sz) {
 		offset = mat_sz * i + (j = j + 1);
 		res += mat[offset];
+		mat[mat_sz * i + j] = 0;
 	}
 
 	return res;
 }
 
-void move(unsigned short *i, unsigned short *j, char dir) {
+void joystick(unsigned short *i, unsigned short *j, char dir) {
 	switch(dir) {
 		case 'r':
 			++*j;
