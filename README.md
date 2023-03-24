@@ -61,10 +61,10 @@
 </p>
 
 <ul>
-    <li>a próxima coluna</li>
-    <li>a coluna anterior</li>
-    <li>a linha de baixo</li>
-    <li>as duas diagonais para baixo</li>
+    <li>A próxima coluna</li>
+    <li>A coluna anterior</li>
+    <li>A linha de baixo</li>
+    <li>As duas diagonais para baixo</li>
 </ul>
 
 <table align="center">
