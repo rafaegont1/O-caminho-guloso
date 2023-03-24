@@ -5,9 +5,6 @@
 <img align="center" height="20px" width="80px" src="https://badgen.net/badge/license/MIT/green"/>
 </div>
 
-<p> </p>
-<p> </p>
-
 <h2>Proposta</h2>
 
 <p align="justify">
