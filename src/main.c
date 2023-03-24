@@ -1,4 +1,4 @@
-#include "funcoes.h"
+#include "matrix.h"
 #include <stdlib.h>
 
 int main() {
@@ -23,6 +23,7 @@ int main() {
 		printf("------------------Matriz número %hu------------------\n\n", n++);
 		printMat(mat_sz, mat);
 		global_sum += local_sum = greedyAlg(mat_sz, mat);
+		printMat(mat_sz, mat);
 		printf("Resultado local: %hu\n\n", local_sum);
 	}
 
