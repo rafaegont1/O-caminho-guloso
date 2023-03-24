@@ -1,9 +1,9 @@
 <h1>O caminho guloso</h1>
 
 <div style="display: inline-block;">
-    <img align="center" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/> 
-    <img align="center" src="https://badgen.net/badge/license/MIT/green"/>
-    <img align="center" th="60px" src="https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black"/>
+    <img align="center" height="20px" width="40px" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/> 
+    <img align="center" height="20px" width="80px" src="https://badgen.net/badge/license/MIT/green"/>
+    <img align="center" height="20px" width="60px" th="60px" src="https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black"/>
 </div>
 
 <h2>Proposta</h2>
