@@ -72,9 +72,12 @@ void joystick(unsigned short *i, unsigned short *j, char dir) {
 }
 
 void printMat(unsigned short mat_sz, unsigned short *mat) {
+	unsigned short val;
+
 	for(int i = 0; i < mat_sz; i++) {
 		for(int j = 0; j < mat_sz; j++) {
-			printf("%d\t", mat[mat_sz * i + j]);
+			val = mat[mat_sz * i + j];
+			printf(val == 0 ? "\x1b[32;1m%d\t\x1b[0;0m" : "%d\t", val);
 		}
 		putchar('\n');
 	}
