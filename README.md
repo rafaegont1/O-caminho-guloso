@@ -60,7 +60,7 @@ Em seguida, o programa entra em um loop (<b>linhas 17-27</b>) que continua até 
 </p>
 
 <p align="justify">
-No arquivo <i>funcoes.c</i>, a função <i>greedyAlg</i> faz a verificação da matriz a partir de um <i>loop</i> que continua até que o programa chegue até a última linha (<b>linhas 11-39</b>). O algoritmo começa a verificar a matriz a partir do elemento disposto na primeira coluna da primeira linha. Com isso, ele procura verificar qual é o maior valor dentre os elementos das colunas próxima e anterior, para a linha de baixo e para as diagonais para baixo. O programa avalia qual é o maior valor dentre cinco direções:
+No arquivo <i>funcoes.c</i>, a função <i>greedyAlg()</i> faz a verificação da matriz a partir de um <i>loop</i> que continua até que o programa chegue até a última linha (<b>linhas 11-39</b>). O algoritmo começa a verificar a matriz a partir do elemento disposto na primeira coluna da primeira linha. Com isso, ele procura verificar qual é o maior valor dentre os elementos das colunas próxima e anterior, para a linha de baixo e para as diagonais para baixo. O programa avalia qual é o maior valor dentre cinco direções:
 </p>
 
 <ul>
@@ -88,7 +88,7 @@ Determinado o maior valor, o algoritmo move para a direção de maior valor, mar
 </p>
 
 <p align="justify">
-Em seguida, é chamada a função <i>joystick</i> (<b>linhas 50-70</b>), onde um <i>switch case</i> define, a partir de um argumento <i>char</i> passado para a função, para qual direção o algoritmo deve se mover.
+Em seguida, é chamada a função <i>joystick()</i> (<b>linhas 50-70</b>), onde um <i>switch case</i> define, a partir de um argumento <i>char</i> passado para a função, para qual direção o algoritmo deve se mover.
 </p>
 
 <p align="justify">
