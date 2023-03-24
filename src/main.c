@@ -6,7 +6,7 @@ int main() {
 	FILE *fp = fopen("dataset/input.data", "r");
 
 	if(fp == NULL) {
-		puts("Erro ao abrir o arquivo");
+		puts("Erro ao tentar abrir o arquivo");
 		exit(EXIT_FAILURE);
 	}
 
