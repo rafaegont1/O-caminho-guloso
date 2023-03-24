@@ -166,7 +166,7 @@
 </table>
 
 <p align="justify">
-    O exemplo aqui exposto foi compilado com o GNU Compiler Collection (gcc) versão 4:11.2.0-1ubuntu1, no sistema operacional Ubuntu 22.04.2 LTS (Jammy Jellyfish). O computador possuia a placa-mãe ASUS AM1M-A/BR, 8 GB de memória RAM DDR3 e um processador AMD Athlon 5150 (arquitetura x86_64).
+    O exemplo aqui exposto foi compilado com o GNU Compiler Collection (gcc) versão 4:11.2.0-1ubuntu1, no sistema operacional Ubuntu 22.04.2 LTS (Jammy Jellyfish). O computador possuia uma placa-mãe ASUS AM1M-A/BR, 8 GB de memória RAM DDR3 e um processador AMD Athlon 5150 (arquitetura x86_64).
 </p>
 
 <h2>Compilação e Execução</h2>
