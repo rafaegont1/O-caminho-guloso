@@ -155,7 +155,7 @@
         <td align="center"></td>
         <td align="center">&#x21D2;</td>
         <td align="center">&#x21D2;</td>
-        <td align="center">&#x2717;</td>
+        <td align="center">&#x21D2;</td>
     </tr>
 </table>
 
